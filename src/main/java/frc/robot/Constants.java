@@ -123,5 +123,14 @@ public class Constants
       {
         public static final double kFreeSpeedRpm = 5676;
       }
-      
-    }
+
+      public static final class OIConstants
+      {
+        public static final int DriverJoystickLPort = 0;
+        public static final int DriverJoystickRPort = 1;
+        public static final int DriverGamepadPort = 2;
+        public static final double kDriveDeadband = 0.25;
+        public static final int SetXButtonIdx = 4;
+        public static final int ResetGyroButtonIdx = 2;
+      }
+}
